@@ -3,26 +3,6 @@
 ## Overview
 This project processes ServiceNow ticket data, transforms it using DBT, and visualizes it in Apache Superset. The pipeline is orchestrated using Apache Airflow.
 
-## Repository Structure
-
-servicenow-ticket-analysis/
-├── airflow/
-│ └── dags/
-│ └── servicenow_pipeline.py
-├── dbt/
-│ ├── models/
-│ │ ├── stg_servicenow_tickets.sql
-│ │ ├── dim_dates.sql
-│ │ ├── avg_resolution_time.sql
-│ │ ├── closure_rate.sql
-│ │ └── monthly_summary.sql
-│ ├── dbt_project.yml
-│ └── profiles.yml
-├── superset/
-│ └── dashboard.json
-├── README.md
-└── requirements.txt
-
 ## Setup Instructions
 
 ### Prerequisites
